@@ -14,7 +14,7 @@ const not = (query) => {
   return (card) => !query(card)
 }
 
-
+// Probably not a useful measure
 [
   isRed,
   isFace,
@@ -51,7 +51,7 @@ const not = (query) => {
 });
 
 
-
+// Possibly the answer
 [
   isRed,
   isFace,
@@ -78,8 +78,6 @@ const not = (query) => {
       }
       tries += 1;
     });
-
-    //console.log("Card", randomSelection, "#right", right, "#wrong", wrong, "probability", right / tries)
 
     probabilitySum += right / tries;
 
