@@ -1,3 +1,14 @@
+// Output of program:
+/*
+$ node cards.js
+isRed
+ - Average probability of being right:          3.84615384615385%
+isFace
+ - Average probability of being right:          3.846153846153845%
+isAceOfSpades
+ - Average probability of being right:          3.8461538461538396%
+*/
+
 // BUILD DECK
 const faces = [..."A23456789TJQK"]; // T is Ten
 const suits = [..."SCDH"];
